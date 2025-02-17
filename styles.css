@@ -1,0 +1,131 @@
+/* 全局样式 */
+body {
+    font-family: 'Noto Serif SC', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Ma Shan Zheng', cursive;
+    color: #c82333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 导航栏 */
+.navbar {
+    background-color: #c82333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* 巨幅Banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('nezha-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-title {
+    font-size: 4rem;
+    animation: float 3s infinite ease-in-out;
+}
+
+.banner-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.counter {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+/* 关于模块 */
+.about {
+    padding: 50px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* 意义展示区 */
+.meaning {
+    padding: 50px 0;
+    background-color: #111;
+    text-align: center;
+}
+
+/* 庆典活动模块 */
+.celebration {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* 页脚 */
+.footer {
+    background-color: #c82333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* 动画 */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
