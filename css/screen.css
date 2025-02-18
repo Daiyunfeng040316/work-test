@@ -1,0 +1,358 @@
+﻿/* CSS Reset */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+strong{ font-weight:bold;}
+img{ vertical-align:top;}
+.cl{ clear:both; font-size:0;}
+
+a{ color:#000; font-size:12px; text-decoration:none;}
+a:hover{ color:#000; text-decoration:none;}
+
+body{ 
+    font-size: 16px; 
+    color: #3a1a0a; 
+    font-family: 
+        "ZCOOL XiaoWei", 
+        "Ma Shan Zheng", 
+        "FangZheng SuTi", 
+        "LiSu", 
+        "KaiTi", 
+        "Microsoft YaHei", 
+        sans-serif;
+    background:url(../image/ad1.jpeg) center top fixed no-repeat;
+    line-height: 1.8; 
+}
+
+.wrapper{ 
+    width:1010px; 
+    padding:10px; 
+    overflow:hidden; 
+    margin: 0 auto; 
+    background-color:rgba(255,255,255,0.92); 
+}
+
+.top{ 
+    width:970px; 
+    height:96px; 
+    background:url(../image/top.png) left top no-repeat; 
+    line-height: 68px; 
+    overflow:hidden; 
+    text-align:right; 
+    padding-right:40px;
+}
+
+.top_link a{ 
+    margin: 0 12px; 
+    display:inline-block; 
+    font-family: "Liu Jian Mao Cao", cursive; 
+    font-size: 18px;
+    color: #7a2612; 
+}
+
+.top_link a:hover{ 
+    color: #c53d13 !important; 
+    text-decoration: none; 
+    text-shadow: 0 0 5px rgba(197,61,19,0.3); 
+}
+
+.nav{ 
+    width:1010px; 
+    height:52px;
+    margin-bottom:6px; 
+    background:url(../image/nav_bg.jpg) 0 0 repeat-x;
+    border-bottom: 2px solid #c53d13;
+}
+
+.nav ul{  
+    width:880px; 
+    overflow:hidden; 
+    padding-left:20px;
+    float: right;
+}
+
+.nav ul li{  
+    text-align:center;
+    float:left;
+    height:48px; 
+    line-height:52px;
+    position: relative;
+}
+
+.nav ul li a{
+    font-size: 22px; 
+    color: #8a2b1d !important; 
+    letter-spacing: 2px; 
+    width: 140px;
+    display: block;
+    font-weight: normal; 
+    font-family: "FZShuTi", "STXingkai", cursive; 
+    transition: all 0.3s ease;
+}
+
+.nav ul li a:hover{ 
+    color: #3a1a0a !important; 
+    transform: scale(1.05);
+    text-shadow: 1px 1px 2px rgba(58,26,10,0.3);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&display=swap');
+
+#banner{ width:1009px; height:420px!important; overflow:hidden; margin-bottom:10px; margin:auto; margin-left:-5px;}
+
+#banner .flexslider .slides li img{
+    margin-top: -10px;
+    position: relative;
+    height: 381px;
+    border-radius: 2%;
+    position: relative;
+}
+
+
+/* 首页代码 */
+.nav .logo img{
+    margin-top: -13px;
+    margin-left: 20px;
+   float: left;
+    width: 130px;
+    height: 60px;
+    position: absolute;
+}
+ 
+.shouye .shouye-one {
+    font-size: 16px;
+
+}
+.shouye  .shouye-two img{
+    float: right;
+    width: 400px;
+    height: 280px;
+   margin-right: 60px;
+}
+.shouye  .shouye-two img:hover{
+    transform: scale(1.1);
+}
+.shouye  .shouye-two .biaodan table {
+ float: left;
+  border: 1px solid #303030;
+  width: 400px;
+  height: 280px;
+  margin-left: 30px;
+  border-collapse: collapse;
+   font-size: 30px;
+   text-align: center;
+   padding-left: 100px;
+ 
+}
+.shouye  .shouye-two .biaodan .yingshi th{
+    color: #900a0a;
+    text-align: right;
+    }
+.shouye  .shouye-two .biaodan  tr td{
+ border: 1px solid #303030;
+  height: 70px;
+  font-size: 18px;
+  text-align: center;
+  
+ 
+ 
+}
+ .shouye  .shouye-three img {
+    width: 200px;
+    height: 180px;
+    float: left;
+    margin: 20px 18px 10px 25px;
+ }
+ .shouye  .shouye-three img:hover{
+    transform: scale(1.1);
+ }
+ .shouye .footer{
+    float: inline-end;
+ }
+ .shouye .footer p{
+     text-align: center;
+    font-size: 21px; 
+    font-weight: 700;
+    line-height: 58px;
+ }
+/* 剧情代码 */
+.wrapper .tupian .paiban img{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px 40px 10px;
+    border-radius: 5%;
+    
+}
+
+.wrapper .box .box-right p{
+   display: block;
+    font-size: 15px;
+   font: 2em ;
+}
+.wrapper .jieshao h2{
+   text-align:left;
+   font-size: 40px;
+
+}
+.wrapper .bd img{
+    margin: 20px 40px 20px 20px;
+    width: 250px;
+    height: 150px;
+}
+.wrapper .bd img:hover{
+    transform: scale(1.1);
+}
+.wrapper .footer{
+  width: 1000px;
+  height: 70px;
+  background-color: #c10000;
+}
+ .wrapper .footer p{
+     text-align: center;
+    font-size: 21px; 
+    font-weight: 700;
+    line-height: 58px;
+ }
+/* 角色大全代码 */
+.jiaose  .jiaose-left  li img{
+    height: 200px;
+    width: 180px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    position: relative;
+    float: left;
+}
+.jiaose  .jiaose-left  li img:hover{
+    transform: scale(1.1);
+}
+.jiaose .jiaose-left  .text{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 200px;
+  
+   
+    
+}
+.jiaose  .text h1{
+    text-align: left;
+    font-size: 30px;
+}
+.jiaose  .text p{
+    display: block;
+    float: right;
+    width: 750px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.jiaose .footer{
+ float: inline-end;
+ margin-top: 30px;
+  width: 1000px;
+  height: 70px;
+  background-color: #c10000;
+}
+ .jiaose .footer p{
+    
+    text-align: center;
+    font-size: 21px; 
+    font-weight: 700;
+    line-height: 58px;
+}
+/* 视频代码 */
+.shipin h2{
+    margin-top: 38px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.shipin .shipin-1 video{
+    width: 430px;
+    height: 300px;
+    position: relative;
+   float: left;
+   margin-left: 20px;
+   margin-top: 20px;
+    
+}
+.shipin .shipin-2 video{
+    
+    width: 430px;
+    height: 300px;
+    position: relative;
+   float: right;
+   margin-right: 65px;
+    margin-top: 20px;
+   
+}
+.shipin .text h2{
+    font-size: 35px;
+    position: relative;
+    margin-top: 350px;
+
+}
+.shipin img{
+    width: 200px;
+    height: 200px;
+    margin: 30px 18px 20px 22px;
+}
+.shipin img:hover{
+    transform: scale(1.1);
+}
+.shipin .footer{
+    height: 70px;
+    color: skyblue;
+    float: inline-end;
+}
+.shipin .footer p{
+    color: #000;
+    text-align: center;
+    font-size: 21px; 
+    font-weight: 700;
+    line-height: 58px;
+}
+ 
+/* 登录代码 */
+
+
+/* 联系我们代码 */
+.lianxi {
+    display: block;
+   background: url(../image/lx.jpg);
+    position: relative;
+    
+}
+
+.lianxi .title {
+    text-align: center;
+    height: 30px;
+    line-height: 16px;
+    border-bottom: 3px solid #222;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 30px;
+    
+}
+.lianxi .input-box{
+    width: 1000px;
+    height: 60px;
+    text-align: center;
+}
+.lianxi .input-box  text{
+    font-size: 30px;
+}
+
+.lianxi .btn{
+      padding: 20px;
+    text-align: center;
+}
+.lianxi .footer p{
+     text-align: center;
+    font-size: 21px; 
+    font-weight: 700;
+    line-height: 58px;
+}
